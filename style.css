@@ -1,0 +1,245 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+*{
+    box-sizing: border-box;
+    font-family:'Fira Sans',sans-serif;
+
+}
+body{
+    margin:0;
+}
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+a{
+    color:white;
+    font-size:1rem;
+    text-decoration:none;
+}
+[class*="col-"]{
+    float:left;
+    padding:10px;
+}
+.nav-logo{
+    text-align: left;
+    padding-left:100px;
+}
+
+.nav-heading h3,p{
+    text-align: left;
+    font-family: Georgia, serif;
+    
+}
+.navbar{
+    background-color: #43858e;
+    padding:1% 7%;
+    text-align: left;
+    padding-left: 5px;;
+}
+.navbar h3,p{
+    color:blanchedalmond;
+    margin:0;
+    padding-top:10px;
+}
+.navbar-menu ul{
+   display:inline-block;
+   list-style: none;
+   
+   
+}
+
+
+.navbar-menu li {
+    display:flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    justify-content: flex-end;
+    float:left;
+   
+}
+.navbar-menu a{
+    background-color:#20505F;
+    border-radius: 10px;
+    margin:7px;
+    padding:10px;
+
+}
+.navbar::after{
+    clear:both;
+    display:table;
+    content:'';
+
+}
+.sub-menu{
+    display:none;
+
+
+}
+
+
+.navbar-menu ul li:hover .sub-menu{
+    display:block;
+    position:absolute;
+    background:#43858e;
+    margin-top: 60px;
+    padding-left:-10px;
+
+}
+
+
+
+
+.navbar-menu ul li:hover .sub-menu ul{
+    display:block;
+    margin:10px;
+}
+.navbar-menu ul li:hover .sub-menu ul li{
+    width:70px;
+    padding:10px;
+	background: transparent;
+    border-radius:0;
+    text-align:left;
+	
+
+}
+.navbar-menu ul li:hover .sub-menu ul li input{
+	padding:10px;
+	color:white;
+	background:#244B6A;
+	border-radius: 10px;
+	text-align:center;
+	font-family:'Fira Sans',sans-serif;
+	flex-direction: column;
+    
+	
+}
+.navbar-menu ul li:hover .sub-menu ul li .st{
+	margin-left:10px;
+}
+.navbar-menu ul li:hover .sub-menu ul li:last-child{
+    border-bottom:none;
+}
+#banner{
+    width:100%;
+}   
+
+#banner img{
+    width:100%;
+    height:70%;
+    
+}
+/* why choose us */
+#why_choose{
+    width:100%;
+    text-align: center;
+    
+}
+#why_choose h1{
+    margin:0 auto;
+    width:300px;
+    font-size:30px;
+    color:#43858e;
+    border-bottom:2px solid #43858e;
+   
+}
+.div_section{
+    width:20%;
+    height:auto;
+    margin:30px;
+    float:left;
+    
+}
+.div_section p{
+    color:black;
+    font-size:14.5px;
+}
+.icon{
+    border-radius:100px ;
+    width:120px;
+    height:120px;
+    border:1px solid gray;
+    margin:10px auto;
+    line-height:120px;
+    font-size:50px;
+    background-color: darkred;
+    color:white;
+    transition-duration: 1s;
+
+}
+.icon:hover{
+    font-size:40px;
+}
+/* footer */
+.footer{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #244B6A;
+     
+}
+.footer_div{
+    width: 20%;
+    height: auto;
+    margin: 30px; 
+    float: left;
+}
+.footer_div h1{ 
+    color: rgb(122, 153, 36);
+    padding-left:30px
+  
+}
+
+
+.footer_div p{
+    color: white;
+}
+.footer_div button{
+    margin-top: 20px;
+    background-color: red;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+     
+}
+.footer_div ul li{
+    list-style: none;
+}
+.footer_div ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social_link{
+    color: white;
+    padding-left: 30px;
+     
+}
+.under_footer{
+    display: inline-block;
+    width: 100%;
+    height:60px; 
+    text-align:center;
+    background-color: white;
+    padding-left:250px;
+}
+.footer1{
+    width: 50%;
+    float: left;
+}
+.footer1 p{
+    color: black;
+}
